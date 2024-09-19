@@ -18,12 +18,12 @@ class ArticleType extends AbstractType
             ->add('title')
             ->add('shortDescription')
             ->add('content')
-            ->add('createdAt', null, [
+            /*->add('createdAt', null, [
                 'widget' => 'single_text',
             ])
             ->add('updatedAt', null, [
                 'widget' => 'single_text',
-            ])
+            ])*/
             ->add('category', EntityType::class, [
                 'class' => Category::class,
                 'choice_label' => 'id',

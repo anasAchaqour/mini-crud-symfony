@@ -24,6 +24,10 @@
                 <td>{{ article.content }}</td>
             </tr>
             <tr>
+                <th>Author</th>
+                <td>{{ article.author.email }}</td>
+            </tr>
+            <tr>
                 <th>CreatedAt</th>
                 <td>{{ article.createdAt ? article.createdAt|date('Y-m-d H:i:s') : '' }}</td>
             </tr>
