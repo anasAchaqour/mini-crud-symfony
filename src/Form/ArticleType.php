@@ -28,10 +28,10 @@ class ArticleType extends AbstractType
                 'class' => Category::class,
                 'choice_label' => 'id',
             ])
-            ->add('author', EntityType::class, [
+            /*->add('author', EntityType::class, [
                 'class' => User::class,
                 'choice_label' => 'id',
-            ])
+            ])*/
         ;
     }
 
